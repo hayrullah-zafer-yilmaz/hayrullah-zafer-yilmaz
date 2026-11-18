@@ -28,6 +28,18 @@ Find the divs your interface doesn't need. It audits any page for wrappers that 
 
 [Live demo](https://hayrullah-zafer-yilmaz.github.io/layer-lens-audit/) · [npm](https://www.npmjs.com/package/layer-lens-audit) · [Docs](https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit#readme)
 
+### [sprout-hop](https://github.com/hayrullah-zafer-yilmaz/sprout-hop)
+
+A 2.5D platformer level built with Vue 3 and TresJS. Run, jump and stomp through a low-poly meadow with real depth and shadows, while the gameplay stays on a single 2D plane.
+
+<img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/sprout-hop/main/docs/assets/demo.gif" width="700" alt="The round orange hero pops a coin out of a crate, breaks a brick, stomps a purple slime, jumps over a pit and climbs stone stairs to collect coins">
+
+- One full level with moving platforms, crates, breakable bricks, two kinds of enemies and a goal flag
+- No asset files: textures are drawn on a canvas and every sound is made with the Web Audio API
+- Game rules in plain TypeScript, tested with Vitest, including a bot that plays through the whole level
+
+[Play in your browser](https://hayrullah-zafer-yilmaz.github.io/sprout-hop/) · [Docs](https://github.com/hayrullah-zafer-yilmaz/sprout-hop#readme)
+
 ## Tech I use
 
-TypeScript · Vue 3 · React · Vite · Web Components · Vitest · Playwright
+TypeScript · Vue 3 · React · Vite · Three.js · TresJS · Web Components · Vitest · Playwright
