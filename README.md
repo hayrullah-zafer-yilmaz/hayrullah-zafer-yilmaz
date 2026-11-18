@@ -1,8 +1,8 @@
 # Hi, I'm Hayrullah Zafer
 
-Frontend developer working with TypeScript, Vue 3 and Vite. I build open-source UI libraries focused on animation and onboarding.
+Frontend developer working with TypeScript, Vue 3 and Vite. I build open-source UI libraries and developer tools for the web.
 
-## Featured project
+## Featured projects
 
 ### [build-reveal](https://github.com/hayrullah-zafer-yilmaz/build-reveal)
 
@@ -16,6 +16,18 @@ Make your page look like it is being built live in a design tool. Virtual cursor
 
 [Live demo](https://hayrullah-zafer-yilmaz.github.io/build-reveal/) · [npm](https://www.npmjs.com/package/build-reveal) · [Docs](https://github.com/hayrullah-zafer-yilmaz/build-reveal/tree/main/docs)
 
+### [layer-lens-audit](https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit)
+
+Find the divs your interface doesn't need. It audits any page for wrappers that draw nothing and change nothing, empty elements and DOM that is too deep or too big, says why each one can go and what to do about it, and shows them on the page and in an exploded 3D view.
+
+<img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/layer-lens-audit/main/docs/assets/demo.gif" width="700" alt="The layer-lens-audit panel on a sample shop finds 41 of 140 elements that could go, explains one with its markup before and after, then shows the shop in an exploded 3D view with those wrappers in red">
+
+- Works with React, Vue, Svelte, Angular and plain HTML
+- In the browser, on the command line and in CI, with a Vite plugin
+- Measured, not guessed: an element is reported only if nothing on the page moves without it
+
+[Live demo](https://hayrullah-zafer-yilmaz.github.io/layer-lens-audit/) · [npm](https://www.npmjs.com/package/layer-lens-audit) · [Docs](https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit#readme)
+
 ## Tech I use
 
-TypeScript · Vue 3 · React · Vite · Web Components · Vitest
+TypeScript · Vue 3 · React · Vite · Web Components · Vitest · Playwright
