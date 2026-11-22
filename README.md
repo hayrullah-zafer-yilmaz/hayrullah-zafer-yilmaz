@@ -69,7 +69,7 @@ Shatter any HTML element into 3D shards and rebuild it as another.
 - Breaks cards, images, tables, forms, SVG, and canvas into 3D shards with cracks, dust, and mist.
 - Uses real copies of each element, so there is no screenshot step and cross-origin images keep working.
 - Works with React, Vue, Angular, Svelte, and plain HTML.
-- No dependencies, about 9 KB gzipped, and respects `prefers-reduced-motion`.
+- No dependencies, about 10 KB gzipped, and respects `prefers-reduced-motion`.
 
 <p>
   <a href="https://hayrullah-zafer-yilmaz.github.io/shatter-morph/"><img src="https://img.shields.io/badge/Live%20demo-2563eb?style=flat" alt="Live demo"></a>
