@@ -1,45 +1,146 @@
-# Hi, I'm Hayrullah Zafer
+<h1 align="center">Hi, I'm Hayrullah Zafer</h1>
 
-Frontend developer working with TypeScript, Vue 3 and Vite. I build open-source UI libraries and developer tools for the web.
+<h3 align="center">Frontend Engineer · Open Source Creator · UI Engineer</h3>
 
-## Featured projects
+<p align="center">
+  Building developer tools, interactive interfaces, and creative experiences for the web.
+</p>
 
-### [build-reveal](https://github.com/hayrullah-zafer-yilmaz/build-reveal)
+<p align="center">
+  <a href="https://github.com/hayrullah-zafer-yilmaz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.npmjs.com/~hayrullah-zafer-yilmaz">
+    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+  </a>
+</p>
 
-Make your page look like it is being built live in a design tool. Virtual cursors draw selection frames around your content, type its text in, and can walk users through your interface with guided tours.
+---
 
-<img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/build-reveal/main/docs/assets/demo.gif" width="700" alt="Three labeled cursors draw selection frames around a heading, stat cards and tags, and type their text in">
+## Featured Projects
 
-- Works with plain JavaScript, React, Vue, Angular and Svelte
-- No dependencies, about 8 KB gzipped
-- Accessible: respects reduced motion and never leaves content hidden
+### 1. build-reveal
 
-[Live demo](https://hayrullah-zafer-yilmaz.github.io/build-reveal/) · [npm](https://www.npmjs.com/package/build-reveal) · [Docs](https://github.com/hayrullah-zafer-yilmaz/build-reveal/tree/main/docs)
+**Make your page look like it is being built live in a design tool.**
 
-### [layer-lens-audit](https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit)
+An interactive animation library where virtual cursors draw selection frames around your content, highlight elements, and guide users through your interface.
 
-Find the divs your interface doesn't need. It audits any page for wrappers that draw nothing and change nothing, empty elements and DOM that is too deep or too big, says why each one can go and what to do about it, and shows them on the page and in an exploded 3D view.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/build-reveal/main/docs/assets/demo.gif" width="100%" alt="build-reveal demo">
+</p>
 
-<img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/layer-lens-audit/main/docs/assets/demo.gif" width="700" alt="The layer-lens-audit panel on a sample shop finds 41 of 140 elements that could go, explains one with its markup before and after, then shows the shop in an exploded 3D view with those wrappers in red">
+**Highlights**
+- Virtual cursors and design-tool-inspired animations.
+- Guided tours and interactive element highlighting.
+- Works with Vanilla JS, React, Vue, Angular, and Svelte.
+- Zero dependencies and approximately 8 KB gzipped.
+- Accessibility support and reduced-motion handling.
 
-- Works with React, Vue, Svelte, Angular and plain HTML
-- In the browser, on the command line and in CI, with a Vite plugin
-- Measured, not guessed: an element is reported only if nothing on the page moves without it
+<p align="center">
+  <a href="https://hayrullah-zafer-yilmaz.github.io/build-reveal/">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-6366f1?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/hayrullah-zafer-yilmaz/build-reveal">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-24292e?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+  <a href="https://www.npmjs.com/package/build-reveal">
+    <img src="https://img.shields.io/badge/NPM_PACKAGE-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm package">
+  </a>
+</p>
 
-[Live demo](https://hayrullah-zafer-yilmaz.github.io/layer-lens-audit/) · [npm](https://www.npmjs.com/package/layer-lens-audit) · [Docs](https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit#readme)
+---
 
-### [sprout-hop](https://github.com/hayrullah-zafer-yilmaz/sprout-hop)
+### 2. layer-lens-audit
 
-A 2.5D platformer level built with Vue 3 and TresJS. Run, jump and stomp through a low-poly meadow with real depth and shadows, while the gameplay stays on a single 2D plane.
+**Find unnecessary DOM complexity. Understand what can be removed.**
 
-<img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/sprout-hop/main/docs/assets/demo.gif" width="700" alt="The round orange hero pops a coin out of a crate, breaks a brick, stomps a purple slime, jumps over a pit and climbs stone stairs to collect coins">
+A DOM auditing tool that detects unnecessary wrappers, empty elements, excessive nesting, and oversized structures. It explains why an element may be unnecessary and visualizes the DOM structure.
 
-- One full level with moving platforms, crates, breakable bricks, two kinds of enemies and a goal flag
-- No asset files: textures are drawn on a canvas and every sound is made with the Web Audio API
-- Game rules in plain TypeScript, tested with Vitest, including a bot that plays through the whole level
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/layer-lens-audit/main/docs/assets/demo.gif" width="100%" alt="layer-lens-audit demo">
+</p>
 
-[Play in your browser](https://hayrullah-zafer-yilmaz.github.io/sprout-hop/) · [Docs](https://github.com/hayrullah-zafer-yilmaz/sprout-hop#readme)
+**Highlights**
+- Detects unnecessary wrappers, empty elements, and excessive DOM depth.
+- Explains why elements are flagged and suggests improvements.
+- Interactive on-page visualization and exploded 3D view.
+- Supports React, Vue, Svelte, Angular, and plain HTML.
+- Browser, CLI, CI, and Vite plugin integrations.
+- Reports measured DOM structure instead of relying on guesses.
 
-## Tech I use
+<p align="center">
+  <a href="https://hayrullah-zafer-yilmaz.github.io/layer-lens-audit/">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-6366f1?style=for-the-badge" alt="Live Demo">
+  </a>
+  <a href="https://github.com/hayrullah-zafer-yilmaz/layer-lens-audit">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-24292e?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+  <a href="https://www.npmjs.com/package/layer-lens-audit">
+    <img src="https://img.shields.io/badge/NPM_PACKAGE-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm package">
+  </a>
+</p>
 
-TypeScript · Vue 3 · React · Vite · Three.js · TresJS · Web Components · Vitest · Playwright
+---
+
+### 3. sprout-hop
+
+**A small 2.5D platformer built with Vue 3 and TresJS.**
+
+A low-poly platform game set in a colorful meadow, featuring interactive environments, moving platforms, enemies, and collectible items.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/sprout-hop/main/docs/assets/demo.gif" width="100%" alt="sprout-hop gameplay">
+</p>
+
+**Highlights**
+- Fully playable level with moving platforms and interactive environments.
+- Breakable bricks, crates, enemies, and collectible items.
+- Procedural canvas-based textures and Web Audio API sound effects.
+- Game logic written in plain TypeScript.
+- Vitest coverage, including a bot that plays through the entire level.
+
+<p align="center">
+  <a href="https://hayrullah-zafer-yilmaz.github.io/sprout-hop/">
+    <img src="https://img.shields.io/badge/PLAY_GAME-6366f1?style=for-the-badge" alt="Play Game">
+  </a>
+  <a href="https://github.com/hayrullah-zafer-yilmaz/sprout-hop">
+    <img src="https://img.shields.io/badge/SOURCE_CODE-24292e?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
+  </a>
+  <a href="https://github.com/hayrullah-zafer-yilmaz/sprout-hop/stargazers">
+    <img src="https://img.shields.io/github/stars/hayrullah-zafer-yilmaz/sprout-hop?style=for-the-badge&label=STARS&color=eab308" alt="Stars">
+  </a>
+</p>
+
+---
+
+## Tech Stack
+
+<p align="center">
+  Hover over an icon to see its description.
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,vue,react,vite,threejs,html,css,nodejs" alt="TypeScript, JavaScript, Vue, React, Vite, Three.js, HTML, CSS, Node.js" title="TypeScript · JavaScript · Vue · React · Vite · Three.js · HTML · CSS · Node.js">
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vitest,git,github,npm" alt="Vitest, Git, GitHub, npm" title="Vitest · Git · GitHub · npm">
+</p>
+
+---
+
+## What I Focus On
+
+| Area | Focus |
+|---|---|
+| Frontend Development | Building modern, responsive, and maintainable interfaces |
+| Developer Tools | Creating tools that improve developer experience |
+| UI Engineering | Exploring interactions, animations, and visual details |
+| Open Source | Building and sharing reusable libraries |
+| Creative Web | Experimenting with 3D, graphics, and interactive experiences |
+
+---
+
+<p align="center">
+  <i>Building things for the web, one experiment at a time.</i>
+</p>
