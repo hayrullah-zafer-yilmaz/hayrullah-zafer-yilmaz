@@ -79,18 +79,40 @@ A 2.5D platformer built with Vue 3, TresJS, and Three.js.
 
 ## Tech Stack
 
-<p align="center">
-  <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="40" alt="TypeScript" title="TypeScript"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="40" alt="JavaScript" title="JavaScript"></a>
-  <a href="https://vuejs.org" title="Vue"><img src="https://skillicons.dev/icons?i=vue" width="40" alt="Vue" title="Vue"></a>
-  <a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react" width="40" alt="React" title="React"></a>
-  <a href="https://vite.dev" title="Vite"><img src="https://skillicons.dev/icons?i=vite" width="40" alt="Vite" title="Vite"></a>
-  <a href="https://threejs.org" title="Three.js"><img src="https://skillicons.dev/icons?i=threejs" width="40" alt="Three.js" title="Three.js"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML"><img src="https://skillicons.dev/icons?i=html" width="40" alt="HTML" title="HTML"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS"><img src="https://skillicons.dev/icons?i=css" width="40" alt="CSS" title="CSS"></a>
-  <a href="https://nodejs.org" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" width="40" alt="Node.js" title="Node.js"></a>
-  <a href="https://vitest.dev" title="Vitest"><img src="https://skillicons.dev/icons?i=vitest" width="40" alt="Vitest" title="Vitest"></a>
-  <a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git" title="Git"></a>
-  <a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub" title="GitHub"></a>
-  <a href="https://www.npmjs.com" title="npm"><img src="https://skillicons.dev/icons?i=npm" width="40" alt="npm" title="npm"></a>
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td><strong>Languages</strong></td>
+    <td>
+      <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="40" alt="TypeScript" title="TypeScript"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="40" alt="JavaScript" title="JavaScript"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML"><img src="https://skillicons.dev/icons?i=html" width="40" alt="HTML" title="HTML"></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS"><img src="https://skillicons.dev/icons?i=css" width="40" alt="CSS" title="CSS"></a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>
+      <a href="https://vuejs.org" title="Vue"><img src="https://skillicons.dev/icons?i=vue" width="40" alt="Vue" title="Vue"></a>
+      <a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react" width="40" alt="React" title="React"></a>
+      <a href="https://threejs.org" title="Three.js"><img src="https://skillicons.dev/icons?i=threejs" width="40" alt="Three.js" title="Three.js"></a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Tooling</strong></td>
+    <td>
+      <a href="https://vite.dev" title="Vite"><img src="https://skillicons.dev/icons?i=vite" width="40" alt="Vite" title="Vite"></a>
+      <a href="https://vitest.dev" title="Vitest"><img src="https://skillicons.dev/icons?i=vitest" width="40" alt="Vitest" title="Vitest"></a>
+      <a href="https://nodejs.org" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" width="40" alt="Node.js" title="Node.js"></a>
+      <a href="https://www.npmjs.com" title="npm"><img src="https://skillicons.dev/icons?i=npm" width="40" alt="npm" title="npm"></a>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Version Control</strong></td>
+    <td>
+      <a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git" title="Git"></a>
+      <a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub" title="GitHub"></a>
+    </td>
+  </tr>
+</table>
+</div>
