@@ -79,8 +79,6 @@ A 2.5D platformer built with Vue 3, TresJS, and Three.js.
 
 ## Tech Stack
 
-## Tech Stack
-
 <p>
   <a href="https://www.typescriptlang.org" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" width="40" alt="TypeScript" title="TypeScript"></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" width="40" alt="JavaScript" title="JavaScript"></a>
