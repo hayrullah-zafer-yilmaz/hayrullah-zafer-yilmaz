@@ -63,11 +63,12 @@ Find the DOM your interface does not need.
 Shatter any HTML element into 3D shards and rebuild it as another.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/shatter-morph/main/docs/assets/demo.gif" width="720" alt="A card cracks into 3D shards that swirl around the stage and rebuild as a photo card, then a login form">
+  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/shatter-morph/main/docs/assets/demo.gif" width="720" alt="A card cracks and breaks into thick 3D shards that swirl around the stage and rebuild as a photo card, then a login form">
 </p>
 
-- Breaks cards, images, tables, forms, SVG, and canvas into 3D shards with cracks, dust, and mist.
+- Breaks cards, images, tables, forms, SVG, and canvas into 3D shards, with six motions.
 - Uses real copies of each element, so there is no screenshot step and cross-origin images keep working.
+- Optional WebGL renderer draws hundreds of thick, lit shards, and effects can follow the scroll position.
 - Works with React, Vue, Angular, Svelte, and plain HTML.
 - No dependencies, about 12 KB gzipped, and respects `prefers-reduced-motion`.
 
@@ -75,6 +76,24 @@ Shatter any HTML element into 3D shards and rebuild it as another.
   <a href="https://hayrullah-zafer-yilmaz.github.io/shatter-morph/"><img src="https://img.shields.io/badge/Live%20demo-2563eb?style=flat" alt="Live demo"></a>
   <a href="https://github.com/hayrullah-zafer-yilmaz/shatter-morph"><img src="https://img.shields.io/badge/Source-24292e?style=flat&logo=github&logoColor=white" alt="Source code"></a>
   <a href="https://www.npmjs.com/package/shatter-morph"><img src="https://img.shields.io/npm/v/shatter-morph?style=flat&logo=npm&logoColor=white&label=npm&color=CB3837" alt="npm version"></a>
+</p>
+
+### Bank Cards
+
+A responsive bank card dashboard built with Vue 3, TypeScript, and shatter-morph.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/bank-cards/main/docs/assets/demo.gif" width="720" alt="The Signature card turns over to show its CVV, shatters into 3D shards and rebuilds as the frozen Classic card, then the whole screen switches from Turkish to English">
+</p>
+
+- Two-sided virtual cards with a WebGL shard transition powered by shatter-morph.
+- Available limit, weekly spending chart, recent transactions, and an offer carousel.
+- English and Turkish UI with four display currencies.
+- Responsive layout with a collapsible menu, keyboard support, and `prefers-reduced-motion`.
+
+<p>
+  <a href="https://hayrullah-zafer-yilmaz.github.io/bank-cards/"><img src="https://img.shields.io/badge/Live%20demo-2563eb?style=flat" alt="Live demo"></a>
+  <a href="https://github.com/hayrullah-zafer-yilmaz/bank-cards"><img src="https://img.shields.io/badge/Source-24292e?style=flat&logo=github&logoColor=white" alt="Source code"></a>
 </p>
 
 ### Sprout Hop
@@ -112,6 +131,7 @@ A 2.5D platformer built with Vue 3, TresJS, and Three.js.
 <p align="center">
   <a href="https://vuejs.org" title="Vue"><img src="https://skillicons.dev/icons?i=vue" width="40" alt="Vue" title="Vue"></a>&nbsp;
   <a href="https://react.dev" title="React"><img src="https://skillicons.dev/icons?i=react" width="40" alt="React" title="React"></a>&nbsp;
+  <a href="https://tailwindcss.com" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" width="40" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
   <a href="https://threejs.org" title="Three.js"><img src="https://skillicons.dev/icons?i=threejs" width="40" alt="Three.js" title="Three.js"></a>
 </p>
 
