@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-  I build developer tools and interactive interfaces for the web.
+  I build interactive interfaces for the web, and small tools for the people who make them.
 </p>
 
 <p align="center">
+  <a href="https://hayrullah-zafer-yilmaz.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-2563eb?style=flat" alt="Portfolio"></a>
   <a href="https://www.npmjs.com/~hayrullahzaferyilmaz"><img src="https://img.shields.io/badge/npm-Packages-CB3837?style=flat&logo=npm&logoColor=white" alt="npm packages"></a>
 </p>
 
@@ -16,7 +17,9 @@
 
 ## About
 
-I am a frontend engineer working mainly with Vue and TypeScript. In my open source work, I focus on small, dependency-free packages, accessible interactions, and well-tested code.
+I'm a frontend engineer, and most of my work happens in Vue and TypeScript. On the side I publish open source packages: small ones, without dependencies, built with accessibility in mind and covered by tests.
+
+You can find more about me and my work on my [portfolio](https://hayrullah-zafer-yilmaz.github.io/portfolio/), in Turkish and English. Here are a few of the projects.
 
 ## Featured Projects
 
@@ -28,10 +31,10 @@ Make any page look like it is being built live in a design tool.
   <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/build-reveal/main/docs/assets/demo.gif" width="720" alt="Virtual cursors draw selection frames around page elements and type their text in">
 </p>
 
-- Virtual cursors draw selection frames, reveal elements, and type content in.
-- Guided tours walk users through a real interface with the same cursor.
+- Virtual cursors draw selection frames around elements, reveal them, and type their text in.
+- The same cursors can walk users through a real interface as a guided tour.
 - Works with React, Vue, Angular, Svelte, and plain HTML.
-- No dependencies, about 8 KB gzipped, and respects `prefers-reduced-motion`.
+- No dependencies, about 8 KB gzipped, and it respects `prefers-reduced-motion`.
 
 <p>
   <a href="https://hayrullah-zafer-yilmaz.github.io/build-reveal/"><img src="https://img.shields.io/badge/Live%20demo-2563eb?style=flat" alt="Live demo"></a>
@@ -41,15 +44,15 @@ Make any page look like it is being built live in a design tool.
 
 ### layer-lens-audit
 
-Find the DOM your interface does not need.
+Find the DOM your interface doesn't need.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/layer-lens-audit/main/docs/assets/demo.gif" width="720" alt="The layer-lens-audit panel lists removable elements on a sample shop page and explains one finding">
 </p>
 
-- Detects unnecessary wrappers, empty elements, and oversized DOM, with an exploded 3D view.
-- Measures each candidate and reports it only if removing it moves nothing around it.
-- Explains every finding, with fixes for React, Vue, Svelte, and Angular.
+- Finds unnecessary wrappers, empty elements, and oversized DOM, and shows them in an exploded 3D view.
+- Measures every candidate and only reports it if removing it would not move anything around it.
+- Explains each finding, with fixes for React, Vue, Svelte, and Angular.
 - Runs in the browser, on the command line, in CI, and as a Vite plugin.
 
 <p>
@@ -66,11 +69,11 @@ Shatter any HTML element into 3D shards and rebuild it as another.
   <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/shatter-morph/main/docs/assets/demo.gif" width="720" alt="A card cracks and breaks into thick 3D shards that swirl around the stage and rebuild as a photo card, then a login form">
 </p>
 
-- Breaks cards, images, tables, forms, SVG, and canvas into 3D shards, with six motions.
-- Uses real copies of each element, so there is no screenshot step and cross-origin images keep working.
-- Optional WebGL renderer draws hundreds of thick, lit shards, and effects can follow the scroll position.
+- Breaks cards, images, tables, forms, SVG, and canvas into 3D shards, with six kinds of motion.
+- Works on real copies of each element, so there is no screenshot step and cross-origin images still work.
+- An optional WebGL renderer draws hundreds of thick, lit shards, and effects can follow the scroll position.
 - Works with React, Vue, Angular, Svelte, and plain HTML.
-- No dependencies, about 12 KB gzipped, and respects `prefers-reduced-motion`.
+- No dependencies, about 12 KB gzipped, and it respects `prefers-reduced-motion`.
 
 <p>
   <a href="https://hayrullah-zafer-yilmaz.github.io/shatter-morph/"><img src="https://img.shields.io/badge/Live%20demo-2563eb?style=flat" alt="Live demo"></a>
@@ -86,9 +89,9 @@ A responsive bank card dashboard built with Vue 3, TypeScript, and shatter-morph
   <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/bank-cards/main/docs/assets/demo.gif" width="720" alt="The Signature card turns over to show its CVV, shatters into 3D shards and rebuilds as the frozen Classic card, then the whole screen switches from Turkish to English">
 </p>
 
-- Two-sided virtual cards with a WebGL shard transition powered by shatter-morph.
-- Available limit, weekly spending chart, recent transactions, and an offer carousel.
-- English and Turkish UI with four display currencies.
+- Two-sided virtual cards that switch with a WebGL shard transition from shatter-morph.
+- Available limit, a weekly spending chart, recent transactions, and an offer carousel.
+- Turkish and English UI, with four display currencies.
 - Responsive layout with a collapsible menu, keyboard support, and `prefers-reduced-motion`.
 
 <p>
@@ -104,10 +107,10 @@ A 2.5D platformer built with Vue 3, TresJS, and Three.js.
   <img src="https://raw.githubusercontent.com/hayrullah-zafer-yilmaz/sprout-hop/main/docs/assets/demo.gif" width="720" alt="Sprout Hop gameplay: a potted hero breaks bricks, stomps an enemy, and collects coins">
 </p>
 
-- Three levels and three playable heroes with different abilities.
-- Keyboard and gamepad support, with English and Turkish UI.
-- Every texture and sound is generated in code, with no asset files.
-- Game rules in plain TypeScript, tested with Vitest, including a bot that plays every level with every hero.
+- Three levels and three playable heroes, each with its own abilities.
+- Plays with a keyboard or a gamepad, in English or Turkish.
+- Every texture and sound is generated in code, so there are no asset files.
+- The game rules are plain TypeScript tested with Vitest, including a bot that plays every level with every hero.
 
 <p>
   <a href="https://hayrullah-zafer-yilmaz.github.io/sprout-hop/"><img src="https://img.shields.io/badge/Play%20game-2563eb?style=flat" alt="Play game"></a>
